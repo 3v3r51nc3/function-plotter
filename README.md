@@ -33,46 +33,46 @@ Works on Windows, macOS, and Linux.
 ### 1. Download Dependencies
 
 #### macOS / Linux
-'''bash
+```bash
 ./setup_dependencies.sh
-'''
+```
 
 #### Windows
-'''batch
+```batch
 setup_dependencies.bat
-'''
+```
 
 ---
 
 ### 2. Build
 
 #### macOS / Linux
-'''bash
+```bash
 ./build.sh
-'''
+```
 
 #### Windows
-'''batch
+```batch
 build.bat
-'''
+```
 
 ---
 
 ### 3. Run
 
-'''bash
+```bash
 # macOS / Linux
 ./build/bin/function-plotter
 
 # Windows
 .\build\bin\Release\function-plotter.exe
-'''
+```
 
 ---
 
 ## Project Structure
 
-'''
+```
 src/
 ├── core/
 │   ├── App.h/cpp
@@ -85,7 +85,7 @@ src/
 │   ├── RendererGL.h/cpp
 │   └── Scene.h/cpp
 └── Animation.h
-'''
+```
 
 ---
 
@@ -134,7 +134,7 @@ Saved in `config.ini`:
 
 ## Repository Layout
 
-'''
+```
 function-plotter/
 ├── main.cpp
 ├── src/
@@ -149,4 +149,4 @@ function-plotter/
 │   └── exprtk/
 ├── CMakeLists.txt
 └── README.md
-'''
+```
