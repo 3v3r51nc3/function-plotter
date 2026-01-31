@@ -1,0 +1,44 @@
+# Build directories
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compiled files
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+
+# Precompiled headers
+*.gch
+*.pch
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+
+# ImGui
+imgui.ini
+
+# Config
+config.ini
+*.ini.bak
+
+# External deps
+external/
+
+# Allow root CMake file
+!CMakeLists.txt
